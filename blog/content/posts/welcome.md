@@ -8,7 +8,7 @@ tags = ["", ""]
 keywords = ["", ""]
 description = "Welcome to my dev blog!"
 showFullContent = false
-draft = true
+draft = false
 +++
 
 # Welcome!
