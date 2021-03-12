@@ -1,0 +1,42 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Lo Ferris"
+theme = "terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "pink"
+  showMenuItems = 1
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+  showLastUpdated = false
+
+[params.twitter]
+  creator = ""
+  site = ""
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Lo Ferris"
+    subtitle = "Indie hacking and more"
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Enhance. Stop. Move in."
+    readMore = "Enhance. Track left."
+    readOtherPosts = "In other words"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+  [languages.en.params.logo]
+    logoText = "Lo Ferris"
+    logoHomeLink = "/"
+
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+      identifier = "links"
+      name = "Links"
+      url = "https://linktr.ee/loferris"
